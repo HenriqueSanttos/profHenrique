@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	ignorecase = true
+[remote "origin"]
+	url = https://git.chatgpt-team.site/0d91e9ed-fce2-4b02-9cd8-f1e0effd84ee/appgprj_6a7e5cc5f9508191b8e51e572166433c.git

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Prof. Henrique Santos — desenvolvedor de software e instrutor de tecnologia." />
+    <title>Prof. Henrique Santos | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>.contact-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.linkedin{background:#0a66c2;color:#fff}.resume{background:transparent;border:1px solid #7694b4;color:#e7f1fc}.project-link{color:#1769e8;text-decoration:none;font-size:11px;font-weight:700}.project-link:hover{text-decoration:underline}.hero-photo{position:absolute;inset:20px 0 0 28px;width:calc(100% - 28px);height:360px;object-fit:cover;object-position:center 20%;border-radius:18px;box-shadow:var(--shadow);z-index:2}.about-photo{width:100%;max-width:340px;aspect-ratio:4/5;object-fit:cover;object-position:center;border-radius:18px;box-shadow:var(--shadow);margin-top:32px}@media(max-width:760px){.hero-photo{inset:14px 4px 0;width:calc(100% - 8px);height:292px}.about-photo{max-width:100%;aspect-ratio:16/10;object-position:center 30%}}</style>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="header">
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Início"><span class="brand-mark">&lt;/&gt;</span><span>Prof. Henrique<span class="brand-dot">.</span></span></a>
+        <button class="menu-button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <div class="nav-links">
+          <a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><a href="#trajetoria">Trajetória</a><a href="#contato">Contato</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section id="inicio" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> Desenvolvedor &amp; educador</p>
+            <h1>Ideias que saem do <em>código</em> e ganham o mundo.</h1>
+            <p class="hero-text">Sou <strong>Henrique Santos</strong>, desenvolvedor de software e instrutor de tecnologia. Transformo lógica de programação e hardwares educacionais em soluções práticas.</p>
+            <div class="hero-actions"><a class="button primary" href="#projetos">Ver projetos <span>↓</span></a><a class="button ghost" href="https://github.com/HenriqueSanttos" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a></div>
+            <div class="tech-row" aria-label="Tecnologias principais"><span>Flutter</span><span>Dart</span><span>Node.js</span><span>Arduino</span></div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orb orb-one"></div><div class="orb orb-two"></div>
+            <img class="hero-photo" src="/henrique-retrato.png" alt="Retrato de Henrique Santos" />
+            <div class="floating-card maker-card"><span>◌</span><div><small>Cultura maker</small><b>Aprender fazendo</b></div></div>
+            <div class="floating-card app-card"><span>▣</span><div><small>Mobile &amp; web</small><b>Produtos digitais</b></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section about"><div class="container about-grid"><div><p class="section-kicker">01 — SOBRE MIM</p><h2>Tecnologia só faz sentido quando aproxima pessoas.</h2><img class="about-photo" src="/henrique-programando.jpg" alt="Henrique Santos trabalhando em seu ambiente de desenvolvimento" /></div><div class="about-text"><p>Sou bacharel em Agrocomputação (2021) com experiência que transita entre o mercado de tecnologia aplicada e a educação. Comecei atuando na linha de frente como Analista de Implantação de Projetos e hoje atuo como Instrutor de Formação Profissional no SENAI.</p><p>Meu foco é desenvolver aplicações escaláveis e criar materiais didáticos e projetos maker de código aberto. Mais que automatizar: quero tornar a tecnologia acessível e aplicável na sala de aula e no dia a dia.</p><div class="stats"><div><b>04+</b><span>tecnologias-chave</span></div><div><b>2021</b><span>formação em Agrocomputação</span></div><div><b>2</b><span>frentes de impacto</span></div></div></div></div></section>
+
+      <section id="projetos" class="section projects"><div class="container"><div class="section-heading"><div><p class="section-kicker">02 — PROJETOS</p><h2>Construindo para o agora.<br /><em>Ensinando para o próximo.</em></h2></div><p>Uma seleção de produtos digitais e iniciativas abertas que conectam software, educação e impacto prático.</p></div><div class="tabs" role="tablist" aria-label="Categorias de projetos"><button class="tab active" role="tab" aria-selected="true" data-filter="dev">⌘ Desenvolvimento mobile &amp; web</button><button class="tab" role="tab" aria-selected="false" data-filter="maker">◌ Educacionais &amp; open-source</button></div><div class="project-grid">
+        <article class="project-card dev"><div class="card-top"><span class="project-number">01</span><span class="tag blue">FLUTTER · DART</span></div><div class="project-icon blue-bg">⌁</div><h3>Ponto Rápido</h3><p>Aplicativo de gestão corporativa, com foco em uma experiência ágil e organizada para equipes.</p><div class="card-footer"><span>Arquitetura &amp; desenvolvimento</span><span class="arrow">↗</span></div></article>
+        <article class="project-card dev"><div class="card-top"><span class="project-number">02</span><span class="tag violet">WEB PLATFORM</span></div><div class="project-icon violet-bg">✦</div><h3>Festô</h3><p>Marketplace de eventos criado do zero, da modelagem de dados à estruturação da plataforma.</p><div class="card-footer"><span>Produto &amp; banco de dados</span><span class="arrow">↗</span></div></article>
+        <article class="project-card dev"><div class="card-top"><span class="project-number">03</span><span class="tag blue">FLUTTER · MOBILE</span></div><div class="project-icon blue-bg">♠</div><h3>Truco Resenha</h3><p>Aplicativo Flutter para marcar partidas de Truco, com placar em tempo real, desafios de Truco, efeitos sonoros e vibração.</p><div class="card-footer"><span>Game feel &amp; experiência mobile</span><span class="arrow">↗</span></div></article>
+        <article class="project-card maker hidden"><div class="card-top"><span class="project-number">04</span><span class="tag green">ARDUINO · ESP32</span></div><div class="project-icon green-bg">⌘</div><h3>Agro-Hacking</h3><p>Kit aberto e sustentável de automação agrícola para aprender fazendo, com sensores acessíveis.</p><div class="card-footer"><a class="project-link" href="https://www.instagram.com/agro.hacking/" target="_blank" rel="noopener noreferrer">Ver no Instagram</a><span class="arrow">↗</span></div></article>
+        <article class="project-card maker hidden"><div class="card-top"><span class="project-number">05</span><span class="tag blue">EDTECH</span></div><div class="project-icon blue-bg">⌨</div><h3>Treino de Digitação</h3><p>Aplicativo educacional para desenvolver velocidade e precisão na digitação de forma prática e interativa.</p><div class="card-footer"><a class="project-link" href="https://digitacao.base44.app" target="_blank" rel="noopener noreferrer">Acessar aplicativo</a><span class="arrow">↗</span></div></article>
+      </div></div></section>
+
+      <section id="trajetoria" class="section journey"><div class="container"><div class="section-heading"><div><p class="section-kicker">03 — TRAJETÓRIA</p><h2>Uma carreira guiada pela <em>curiosidade.</em></h2></div><p>Da implantação de tecnologia no campo à formação de novos profissionais.</p></div><div class="timeline"><article class="timeline-item current"><div class="timeline-date">ATUALMENTE</div><div class="timeline-dot"></div><div class="timeline-card"><span class="timeline-label">EDUCAÇÃO</span><h3>Instrutor de Formação Profissional</h3><h4>SENAI</h4><p>Criação de planos de aula, guias técnicos e instrução de tecnologias industriais e educacionais.</p></div></article><article class="timeline-item"><div class="timeline-date">2026</div><div class="timeline-dot"></div><div class="timeline-card"><span class="timeline-label">PRODUTO DIGITAL</span><h3>Desenvolvimento de Produtos Digitais</h3><h4>Ponto Rápido &amp; Festô</h4><p>Idealização e criação ativa de aplicações que resolvem problemas reais.</p></div></article><article class="timeline-item"><div class="timeline-date">ANTERIOR</div><div class="timeline-dot"></div><div class="timeline-card"><span class="timeline-label">TECNOLOGIA APLICADA</span><h3>Analista de Implantação de Projetos</h3><h4>Solinftec</h4><p>Experiência corporativa direta com implantação de tecnologia de ponta.</p></div></article><article class="timeline-item"><div class="timeline-date">SET. 2021</div><div class="timeline-dot"></div><div class="timeline-card"><span class="timeline-label">FORMAÇÃO</span><h3>Bacharel em Agrocomputação</h3><h4>Graduação</h4><p>A base multidisciplinar que conecta o digital às aplicações do mundo real.</p></div></article></div></div></section>
+      <section id="contato" class="contact"><div class="container contact-inner"><p class="section-kicker">04 — VAMOS CONVERSAR</p><h2>Tem uma ideia que<br />merece sair do papel?</h2><p>Vamos construir algo útil, acessível e memorável juntos.</p><div class="contact-actions"><a class="button light" href="mailto:henrique.rodriguesdos19@gmail.com">Enviar uma mensagem <span>↗</span></a><a class="button linkedin" href="https://www.linkedin.com/in/henrique-santos19/" target="_blank" rel="noopener noreferrer">in&nbsp; Conectar no LinkedIn <span>↗</span></a><a class="button resume" href="/curriculo-prof-henrique-santos.pdf" download>↓&nbsp; Baixar currículo em PDF</a></div><a class="github-link" href="https://github.com/HenriqueSanttos" target="_blank" rel="noopener noreferrer">◉ github.com/HenriqueSanttos</a></div></section>
+    </main>
+    <footer><div class="container"><span>© 2026 Prof. Henrique Santos</span><span>Feito com intenção, código e café.</span></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

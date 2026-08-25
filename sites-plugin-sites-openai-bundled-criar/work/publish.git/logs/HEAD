@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 321debf664420dded5cff860d0b31481cea83d74 Codex <codex@openai.com> 1786666386 -0400	commit (initial): Create Prof Henrique Santos portfolio
+321debf664420dded5cff860d0b31481cea83d74 f81278c4903b05ecc508b82dc3681d240c3df715 Codex <codex@openai.com> 1786667274 -0400	commit: Configure static build output
+f81278c4903b05ecc508b82dc3681d240c3df715 5daba9844386b418b8dfabd39db2be3cd98bd820 Codex <codex@openai.com> 1786925952 -0400	commit: Package portfolio as a Sites worker
+5daba9844386b418b8dfabd39db2be3cd98bd820 d7be0ee9683e8a208f6dd3a9227ae19fbc337d83 Codex <codex@openai.com> 1786927676 -0400	commit: Add LinkedIn and downloadable resume
